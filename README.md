@@ -2,6 +2,8 @@
 
 RCharG is a C-based tool that generates random character sequences with both Text-based User Interface (TUI) and Command Line Interface (CLI) interfaces. It can generate sequences of upto a length of 6000 characters, including a combination of lowercase letters, uppercase letters, numbers, and symbols.
 
+---
+
 ## Table of Contents
 
 - [About](#about)
@@ -11,11 +13,15 @@ RCharG is a C-based tool that generates random character sequences with both Tex
 - [Uninstallation](#uninstallation)
 - [License](#license)
 
+---
+
 ## About
 
 ![RCharG Demo](gif/rcharg.gif)
 
 RCharG is a simple yet powerful tool written in C for generating random character sequences. Whether you need strong passwords, cryptographic keys, or any other form of random data, RCharG has you covered. The tool provides both a TUI and a CLI, making it versatile and easy to use in various environments.
+
+---
 
 ## Dependencies
 
@@ -47,6 +53,8 @@ sudo yum install ncurses-devel
  sudo dnf install ncurses-devel
 ```
 
+---
+
 ## Installation
 
 To Install RCharG, follow the steps below.
@@ -74,6 +82,8 @@ sudo make install
 make clean
 ```
 
+---
+
 ## Usage
 
 To run the Random Character Generator program, enter the TUI by typing the following command.
@@ -82,6 +92,7 @@ To run the Random Character Generator program, enter the TUI by typing the follo
 # Run the Program
 rcharg
 ```
+---
 
 Add the help flag to show Usage.
 ![RCharG Help](gif/rchargHelp.gif)
@@ -90,6 +101,7 @@ Add the help flag to show Usage.
 # Show Usage
 rcharg --help 
 ```
+---
 
 Directly generate Random Characters by using the gen flag
 ![RCharG Direct Generation](gif/rchargGen.gif)
@@ -100,6 +112,8 @@ Directly generate Random Characters by using the gen flag
 rcharg --gen [size] [type]
 ```
 
+---
+
 ## Uninstallation
 
 To Uninstall RCharG, follow the steps below.
@@ -108,6 +122,8 @@ To Uninstall RCharG, follow the steps below.
 # Uninstall & Delete all
 sudo make clean uninstall
 ```
+
+---
 
 ## License
 
