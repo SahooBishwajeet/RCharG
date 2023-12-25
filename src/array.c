@@ -4,10 +4,10 @@
 #include <array.h>
 #include <rand.h>
 
-#define LOWER_CASE 1 << 0 // 1 in decimal
-#define UPPER_CASE 1 << 1 // 2 in decimal
-#define NUMBERS 1 << 2 // 4 in decimal
-#define SYMBOLS 1 << 3 // 8 in decimal
+#define LOWER_CASE (1 << 0) // 1 in decimal
+#define UPPER_CASE (1 << 1) // 2 in decimal
+#define NUMBERS (1 << 2) // 4 in decimal
+#define SYMBOLS (1 << 3) // 8 in decimal
 
 #define ALPHABETS_RANGE 26 // Range of Alphabets
 #define NUMBERS_RANGE 10 // Range of Number
