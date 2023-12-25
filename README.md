@@ -77,23 +77,22 @@ make clean
 ## Usage
 
 To run the Random Character Generator program, enter the TUI by typing the following command.
-
 ![RCharG Demo](gif/rcharg.gif)
 ```bash
 # Run the Program
 rcharg
 ```
 
-![RCharG Help](gif/rchargHelp.gif)
 Add the help flag to show Usage.
+![RCharG Help](gif/rchargHelp.gif)
 
 ```bash
 # Show Usage
 rcharg --help 
 ```
 
-![RCharG Direct Generation](gif/rchargGen.gif)
 Directly generate Random Characters by using the gen flag
+![RCharG Direct Generation](gif/rchargGen.gif)
 
 ```bash
 # Generate Random Characters direclty
