@@ -21,8 +21,8 @@ void getSize(randArray *ptr) {
         refresh();
         scanw("%u", &(ptr->length));
 
-        if(ptr->length > 0 && ptr->length < 32767) break;   // As we have set "uint16_t iter2 = 0;" in "void createArray(randArray *ptr);"
-        printw("invalid Value\n");
+        if(ptr->length > 0 && ptr->length < 6000) break;   // As we have set "uint16_t iter2 = 0;" in "void createArray(randArray *ptr);"
+        printw("Invalid Value\n");
         refresh();
         napms(500);
     }

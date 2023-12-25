@@ -43,7 +43,7 @@ void cli(char **argv, randArray *ptr) {
             "help      prints informations about rcharg\n"
             "gen       generates characters using the size and type\n\n"
             "Instructions:\n"
-            "Size = A positive number from 1 up to 32767\n"
+            "Size = A positive number from 1 up to 6000\n"
             "Type = One or more options [LowerCase, UpperCase, Number, Symbol] from 1 up to 4, in any order\n");
     }
     else if(strcmp("--gen", argv[1]) == 0) {
