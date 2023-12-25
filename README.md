@@ -13,13 +13,15 @@ RCharG is a C-based tool that generates random character sequences with both Tex
 
 ## About
 
+![RCharG Demo](gif/rcharg.gif)
+
 RCharG is a simple yet powerful tool written in C for generating random character sequences. Whether you need strong passwords, cryptographic keys, or any other form of random data, RCharG has you covered. The tool provides both a TUI and a CLI, making it versatile and easy to use in various environments.
 
 ## Dependencies
 
 RCharG relies on [ncurses](https://invisible-island.net/ncurses/), so please make sure to install it before building and running RCharG.
 
-### Installing the ncurses library in Debian/Ubuntu Linux:
+### Installing the ncurses library in Debian/Ubuntu Linux
 
 ```bash
 # Using apt
@@ -72,21 +74,27 @@ sudo make install
 make clean
 ```
 
-## Usage 
+## Usage
 
 To run the Random Character Generator program, enter the TUI by typing the following command.
+
+![RCharG Demo](gif/rcharg.gif)
 ```bash
 # Run the Program
 rcharg
 ```
 
+![RCharG Help](gif/rchargHelp.gif)
 Add the help flag to show Usage.
+
 ```bash
 # Show Usage
 rcharg --help 
 ```
 
+![RCharG Direct Generation](gif/rchargGen.gif)
 Directly generate Random Characters by using the gen flag
+
 ```bash
 # Generate Random Characters direclty
 # 1 <= size <= 6000 || type = [1,2,3,4]
