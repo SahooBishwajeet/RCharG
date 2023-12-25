@@ -64,6 +64,8 @@ To Install RCharG, follow the steps below.
 git clone https://github.com/SahooBishwajeet/RCharG.git
 ```
 
+OR
+
 ```bash
 # Clone the Repository (ssh)
 git clone git@github.com:SahooBishwajeet/RCharG.git
