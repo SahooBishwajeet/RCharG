@@ -57,5 +57,5 @@ void cli(char **argv, randArray *ptr) {
 
         free(ptr->genChar);
     }
-    else if(strcmp("--help", argv[1]) != 0) printf("Unknown Usage, Use \"help\" Argument\n");
+    else printf("Unknown Usage, Use \"--help\" Argument\n");
 }
